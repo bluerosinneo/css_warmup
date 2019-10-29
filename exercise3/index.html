@@ -7,7 +7,95 @@
   <title>CSS Exercise 3</title>
 
   <style>
-  	
+  	div {
+			width: 100px;
+			height: 100px;
+		}
+
+		.interior {
+			background-color: blue;
+			position: absolute;
+		}
+
+		.div1 {
+			top: 25px;
+			left: 25px;
+		}
+
+		.div2 {
+			top: 25px;
+			left: 150px;
+		}
+
+		.div3 {
+			top: 150px;
+			left: 25px
+		}
+
+		.div4 {
+			top: 150px;
+			left: 150px;
+		}
+
+		.div5 {
+			background-color: red;
+			top: 87.5px;
+			left: 87.5px;
+			transform: rotate(45deg);
+		}
+		
+		.div5div {
+			width: 100px;
+			height: 100px;
+		}
+
+		.interior {
+			background-color: blue;
+			position: absolute;
+		}
+
+		.div1 {
+			top: 25px;
+			left: 25px;
+		}
+
+		.div2 {
+			top: 25px;
+			left: 150px;
+		}
+
+		.div3 {
+			top: 150px;
+			left: 25px
+		}
+
+		.div4 {
+			top: 150px;
+			left: 150px;
+		}
+
+		.div5 {
+			background-color: red;
+			top: 87.5px;
+			left: 87.5px;
+			transform: rotate(45deg);
+		}
+		.div1:after {
+			position: relative;
+			z-index: 5;
+			font-size: 20px;
+			text-align: center;
+			border-right: white 2px solid;
+			border-left: white 2px solid;
+			padding: 5px;	
+
+			left: 97.5px;
+			top: 97.5px;
+			content: "★";
+			background-color: white;
+
+			border-radius: 50%;
+		}
   </style>
 </head>
 <body>
